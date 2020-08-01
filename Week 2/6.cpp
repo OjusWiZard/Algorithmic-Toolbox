@@ -1,11 +1,17 @@
 #include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define ld long double
+#define ull unsigned long long
+#define mod 1000000007
+#define fast ios::sync_with_stdio(0); cin.tie(NULL); cout.tie(NULL)
 
-using namespace std ;
 
 void  solve()
 {
-	long long fib, a = 1, b = 0, n, sum = 0;
+	ll fib, a = 1, b = 0, n, sum = 0;
 	cin >> n;
+
 	n %= 60;
 	while (n--)
 	{
@@ -20,8 +26,7 @@ void  solve()
 
 int main()
 {
-	ios_base::sync_with_stdio( false ) ;
-	cin.tie( NULL ) ;
+	fast;
 
 	int t ;
 	t = 1 ;
